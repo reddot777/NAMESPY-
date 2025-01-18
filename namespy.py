@@ -112,11 +112,7 @@ depop_base_url = "https://www.depop.com/"
 
 mercari_base_url = "https://www.mercari.com/u/"
 
-""" wordpress_base_url = "https://username.wordpress.com" """ #BUG
-
 medium_base_url = "https://medium.com/@"
-
-""" ghost_base_url = "https://username.ghost.io" """ # BUG
 
 blogger_base_url = "https://username.blogspot.com"
 
