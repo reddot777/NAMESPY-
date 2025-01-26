@@ -848,30 +848,17 @@ send_medium(username)
 send_ghost(username) """
 
 def send_blogger(name):
-
     blogger_url = f"{blogger_base_url.replace('username', name)}"
-
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
-
     response = requests.get(blogger_url, headers=headers)
-
     try :
-
-
-        if response.status_code == 200:
-
+        if response.status_code == 200 :
             print("[+]", blogger_url)
         else:
             print("[-]", blogger_url)
-
-
-
     except requests.RequestException:
-
         print("[-] ERROR CONNECTION TO SERVER !")
-
-
-
+        
 send_blogger(username)
 
 def send_dropbox(name):
@@ -1140,9 +1127,9 @@ def send_venmo(name):
 send_venmo(username)
 
 
-print("NameSpy by @reddot777 on github")
+print("\nNameSpy by @reddot777 on github")
 
-print("I HAVE NO RESPONSABILITY OF UR ACTS")
+print("\nI HAVE NO RESPONSABILITY OF UR ACTS")
 
 
 
